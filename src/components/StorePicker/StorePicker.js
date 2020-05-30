@@ -5,7 +5,7 @@ import './StorePicker.scss';
 class StorePicker extends React.Component {
   render() {
     return (
-      <div className="StorePicker">
+      <div className="StorePicker col-12">
       <form className="store-selector">
         <h2>Please Enter A Store</h2>
         <input type ="text" required placeholder="Enter Store Name Here"/>

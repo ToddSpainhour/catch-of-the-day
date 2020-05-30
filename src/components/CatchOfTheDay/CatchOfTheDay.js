@@ -10,11 +10,9 @@ class CatchOfTheDay extends React.Component {
   render() {
     return (
 <div className="CatchOfTheDay">
-  <div className="menu">
-    <Header />
-  </div>
-    <Order />
-    <Inventory />
+      <Header />
+      <Order />
+      <Inventory />
 </div>
     );
   }

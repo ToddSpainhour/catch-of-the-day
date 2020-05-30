@@ -8,7 +8,11 @@ class App extends React.Component {
     return (
       <div className="App">
         <StorePicker />
-        <CatchOfTheDay />
+        <div className="">
+
+            <CatchOfTheDay />
+
+      </div>
       </div>
     );
   }

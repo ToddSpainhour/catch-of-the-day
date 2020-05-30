@@ -10,7 +10,7 @@ class CatchOfTheDay extends React.Component {
   render() {
     return (
 <div className="CatchOfTheDay">
-      <Header />
+      <Header tagline="Fresh Seafood Market"/>
       <Order />
       <Inventory />
 </div>

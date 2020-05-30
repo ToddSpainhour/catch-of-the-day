@@ -1,5 +1,6 @@
 import React from 'react';
 import StorePicker from '../components/StorePicker/StorePicker';
+import CatchOfTheDay from '../components/CatchOfTheDay/CatchOfTheDay';
 import './App.scss';
 
 class App extends React.Component {
@@ -7,6 +8,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <StorePicker />
+        <CatchOfTheDay />
       </div>
     );
   }
